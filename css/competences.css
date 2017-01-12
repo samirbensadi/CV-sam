@@ -1,0 +1,33 @@
+#competences {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgba(250,250,250,0.7);
+}
+
+#competences h2 {
+  margin-top: 1.5em;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+#competences ul {
+  margin-top: 5em;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#competences ul li {
+  list-style-type: none;
+  margin: 2em;
+}
+
+#competences i {
+  font-size: 8em;
+
+}

@@ -7,15 +7,21 @@
     <meta name="keywords" content="CV,BEN SADI, Samir, web, developpeur,coda,simplon">
     <!-- favicon  -->
     <link rel="icon" type="image/png" href="">
+
     <!-- link css & fonts -->
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-    <!-- <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+    <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!-- own css -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/accueil.css">
+    <link rel="stylesheet" href="css/formation.css">
+    <link rel="stylesheet" href="css/competences.css">
+
+    </script>
 
     <title>Samir Ben sadi</title>
 </head>
@@ -25,14 +31,14 @@
         <video preload="preload" id="video" autoplay="autoplay" loop="loop">
          <source src="assets/landscape.mp4" type="video/mp4"></source>
         </video>
-        <header>
+        <header id="mainHeader">
 
             <nav>
-                <ul class="Navigation">
+                <ul class="cl-effect-1 Navigation">
                     <li><a href="#formation">Formation</a></li>
-                    <li><a href="#">Compétences</a></li>
-                    <li><a href="#">Certifications</a></li>
-                    <li><a href="#">Projets</a></li>
+                    <li><a href="#competences">Compétences</a></li>
+                    <li><a href="#certifs">Certifications</a></li>
+                    <li><a href="#projets">Projets</a></li>
                 </ul>
 
                 <div class="social">
@@ -51,35 +57,63 @@
                     <p>Developpeur web</p>
                 </div>
             </div>
+
+            <h3>"La vie, c'est comme une bicyclette, quand on s'arrête d'avancer, on tombe" <br>-<br /> Albert Einstein</h3>
+
         </header>
 
 
         <!-- sections du CV -->
 
-            <div class="citation">
-                <h3>"La vie, c'est comme une bicyclette, quand on s'arrête d'avancer, on tombe - Albert Einstein"</h3>
-            </div>
-
-
         <section id="formation">
             <h2>Formation</h2>
-            <ul>
-                <li>BEP HRT option cusinie</li>
-                <li>DAEU A Université Lumière Lyon 2</li>
-                <li>Simplon Alès</li>
-            </ul>
+        <div class="cards">
+            <div>
+                <header class="headCards">
+                    <h3>UTEC</h3>
+                </header>
+                <p>2005 <br>- <br>EMMERAINVILLE (Seine et Marne)</p>
+                <p>BEP HRT</p>
+                <img src="assets/img/UTEC.png" alt="">
+            </div>
+
+            <div>
+                <header class="headCards">
+                    <h3>UNIVERSITE LUMIERE LYON</h3>
+                </header>
+                <p>2012 <br>- <br>LYON</p>
+                <p>DAEU A (Litteraire)</p></p>
+                <img src="assets/img/Lyon2.jpg" alt="">
+            </div>
+
+            <div>
+                <header class="headCards">
+                    <h3>SIMPLON</h3>
+                </header>
+                <p>2016 <br>- <br>ALES</p>
+                <p>Developpement web</p>
+                <img src="assets/img/simplon-logo.png" alt="">
+            </div>
+        </div>
         </section>
+
 
         <section id="competences">
             <h2>Compétences</h2>
             <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JavaScript</li>
-                <li>Git</li>
-                <li>Ruby</li>
-                <li>Rails</li>
-                <li>php</li>
+                <li><i class="devicon-html5-plain-wordmark colored"></i></li>
+                <li><i class="devicon-css3-plain-wordmark colored"></i></li>
+                <li><i class="devicon-javascript-plain colored"></i></li>
+                <li><i class="devicon-github-plain-wordmark colored"></i></li>
+                <li><i class="devicon-ruby-plain-wordmark colored"></i></li>
+                <li><i class="devicon-rails-plain-wordmark colored"></i></li>
+                <li><i class="devicon-php-plain colored"></i></li>
+                <li><i class="devicon-bootstrap-plain-wordmark colored"></i></li>
+                <li><i class="devicon-jquery-plain-wordmark colored"></i></li>
+                <li><i class="devicon-mysql-plain-wordmark colored"></i></li>
+                <li><i class="devicon-trello-plain-wordmark colored"></i></li>
+                <li><i class="devicon-wordpress-plain-wordmark colored"></i></li>
+                <li><i class="devicon-linux-plain colored"></i></li>
             </ul>
         </section>
 

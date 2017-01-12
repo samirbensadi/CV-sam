@@ -25,13 +25,21 @@ nav {
   text-decoration: none;
   color:#fff;
   font-size: 1.3em;
+  padding: 0.2em;
+  outline: none;
 }
+
+.Navigation li a:hover {
+  border-bottom: 3px solid white;
+}
+
 
 .social {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 3em;
   margin-right: 4em;
 }
 
@@ -48,4 +56,18 @@ nav {
 .socialIcon li a {
   text-decoration: none;
   color: #fff;
+}
+
+#fb:hover {
+  color: #3B5998;
+  transition: 1s;
+}
+#tw:hover {
+ color: #1DA1F2;
+ transition: 1s;
+}
+
+#git:hover {
+  color: #F54B28;
+  transition: 1s;
 }

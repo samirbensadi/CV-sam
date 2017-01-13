@@ -28,12 +28,13 @@ position: relative;
     height: 13.750em;
     transition: 1s;
     margin-bottom: 2em;
+    opacity: 0.5;
 }
 
-/*.photo:hover {
-    background-image: url(../assets/img/mini_avatar.jpg);
+.photo:hover {
+    opacity: 1;
     transition: 1s;
-}*/
+}
 
 .mainTitle {
   display: flex;
